@@ -17,8 +17,9 @@ namespace Peter_2021._12._02
             char karakter2 = karakter;
 
             //Karaktertípus:2:String
+            string szoveg1 = "alma";
 
-            Console.WriteLine(karakter + ":" + karakter2);
+            Console.WriteLine(karakter + ":" + karakter2 + "\n" +szoveg1);
             Console.ReadKey();
 
         }
