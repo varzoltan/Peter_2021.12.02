@@ -18,8 +18,19 @@ namespace Peter_2021._12._02
 
             //Karaktertípus:2:String
             string szoveg1 = "alma";
+            string szoveg2 = "fa";
 
-            Console.WriteLine(karakter + ":" + karakter2 + "\n" +szoveg1);
+            Console.WriteLine(karakter + ":" + karakter2 + "\n" +szoveg1+szoveg2 + " " + szoveg1.Replace("a","ó"));
+
+            //Egész típus
+            int ertek1 = int.MinValue;
+            int ertek2 = int.MaxValue;
+            long ertek3 = long.MinValue;
+            long ertek4 = long.MaxValue;
+            Console.WriteLine("Integer minimumértéke:" + ertek1);
+            Console.Write("Integer maximumértéke:" + ertek2+"\n");
+            Console.WriteLine("Long minimumértéke:" + ertek3);
+            Console.Write("Long maximumértéke:" + ertek4);
             Console.ReadKey();
 
         }
